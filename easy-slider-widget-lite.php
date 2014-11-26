@@ -69,6 +69,14 @@ add_action( 'init', 'ewic_lang_init' );
 
 
 /*-------------------------------------------------------------------------------*/
+/* Put Admin css file
+/*-------------------------------------------------------------------------------*/
+function ewic_admin_stylesheet() {
+	wp_enqueue_style( 'ewic_admin_styles', plugins_url('inc/css/admin.css' , __FILE__ ) );
+	}
+add_action( 'admin_print_styles', 'ewic_admin_stylesheet' );	
+
+/*-------------------------------------------------------------------------------*/
 /*   Registers custom post type
 /*-------------------------------------------------------------------------------*/
 function ewic_post_type() {

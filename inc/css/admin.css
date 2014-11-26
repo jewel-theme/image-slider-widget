@@ -1,0 +1,8 @@
+/* Featured Plugin Styles
+-------------------------------------------------------------- */
+#ghozy-featured h2 { margin: 0 0 15px; }
+#ghozy-featured .ghozy-extension { float: left; margin: 0 15px 15px 0; background: #f0f0f0; border: 1px solid #ccc; width: 320px; padding: 8px; height: 315px; position: relative; }
+#ghozy-featured .ghozy-extension h3 { margin: 0 0 8px; font-size: 13px;  }
+#ghozy-featured .ghozy-extension .button-secondary { position: absolute; bottom: 8px; left: 8px; }
+#ghozy-featured .ghozy-browse-all { clear:both; width:100%; }
+#ghozy-featured .ghozy-extension .third-party { display: none; }
