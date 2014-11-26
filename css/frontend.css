@@ -64,3 +64,7 @@
 .lb-number {
 	/* display: none !important; */
 	}
+	
+.ewc_close {
+	z-index:9995;
+	}
