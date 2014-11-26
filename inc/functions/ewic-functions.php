@@ -74,7 +74,7 @@ function ewic_generate_images_slider( $id ) {
 			adaptiveHeight: true,
 			adaptiveHeightSpeed: 700,
 			controls: true,
-			preloadImages: "all",
+			preloadImages: "visible",
 			infiniteLoop: true,
 			captions: '.$disenttl.',
 			autoHover: true,

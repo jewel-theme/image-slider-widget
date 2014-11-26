@@ -14,7 +14,7 @@ Displaying your image as slider in widget/sidebar area with very easy.
 
 Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 
-= Features =
+### Features
 > 
 > * Unlimited Images
 > * ON/OFF Auto Slide
@@ -23,10 +23,14 @@ Easy Image Slider Widget - Displaying your image as slider in widget/sidebar are
 > * Vertical/Horizontal Slider styles
 > * Open Slider in a Lightbox ( when clicked )
 
-= Plugin in Action =
+### Live Demo
+> 
+> * [DEMO](http://demo.ghozylab.com/plugins/imageslider/)
+
+### Plugin in Action
 <p>https://www.youtube.com/watch?v=mN9Y7mb3XZo</p>
 
-= Recommended Plugins =
+### Recommended Plugins
 The following are other recommended plugins by the author:
 
 * [Easy Media Gallery](http://wordpress.org/plugins/easy-media-gallery/) - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
