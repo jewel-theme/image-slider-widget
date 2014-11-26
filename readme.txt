@@ -23,6 +23,9 @@ Easy Image Slider Widget - Displaying your image as slider in widget/sidebar are
 > * Vertical/Horizontal Slider styles
 > * Open Slider in a Lightbox ( when clicked )
 
+= Plugin in Action =
+<p>https://www.youtube.com/watch?v=mN9Y7mb3XZo</p>
+
 = Recommended Plugins =
 The following are other recommended plugins by the author:
 
