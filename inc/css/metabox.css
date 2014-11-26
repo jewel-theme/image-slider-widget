@@ -1,0 +1,215 @@
+.ewicthumbhandler {
+    padding: 5px;
+    margin: 0px 0px 1.5% 1.5%;
+    background: none repeat scroll 0% 0% #FFF;
+    display: block;
+    vertical-align: top;
+    border: 2px solid #E1E1E1;
+    box-shadow: 0px 0px 5px #DDD;
+    -moz-box-sizing: border-box;
+	border-radius:5px;
+	}
+	
+.ewicthumbhandler img {
+	margin-right: 20px;
+	max-width:60px !important;
+	max-height:60px !important;
+	border: 2px solid #5B9DD9;
+	}
+	
+.ewic-metabox-table td {
+	line-height: 0 !important;
+	}
+	
+.ewic-shorter {
+	margin-right: 5px;
+	vertical-align: middle;
+	position: relative;
+	float: left;
+	cursor: move;
+	width: 19px;
+	height: 19px;
+	background-image: url('../images/sort_both.png');
+	background-repeat: no-repeat;
+	}
+	
+.ewic-del-images {
+	margin-right: 5px;
+	vertical-align: middle;
+	position: relative;
+	float: right;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	background-image: url('../images/remove.png');
+	background-repeat: no-repeat;
+	}
+	
+input.images-title {
+	vertical-align:top;
+	display: inline-block;
+	width:50%;
+	margin-top:10px;
+
+	}
+	
+.ewicthumbhandler label {
+	font-size:12px;
+	color: #999;
+	font-style:italic;
+	vertical-align:top;
+	display: inline-block; width: 23px; padding-top:23px;
+	}
+	
+.titleholder {
+	border: 0 0 0 2px solid #666;
+	}
+	
+.ui-sortable-placeholder { 
+	border-radius:5px; 
+    border: 1px dashed #CACACA;  
+    height: 60px;  
+    width: 100%;  
+    background: #F3F3F3;  
+	}
+
+
+.ewic-metabox-table th { width: 30%; }
+div#ewic_meta_settings.postbox th { width: 40%; }
+div#ewic_meta_settings.postbox th {border-right: 1px #CCC dotted;}
+div#ewic_meta_settings.postbox td {padding-left: 20px;}
+
+
+.ewic-metabox-table tr { border-top: 1px solid #eee; }
+.ewic-metabox-table th {
+	padding: 10px 20px 10px 5px !important;
+	}
+	
+.ewic-metabox-table td {
+	vertical-align: middle !important;
+	}
+	
+.ewic-metabox-table label strong {
+    line-height: 20px;
+    display: block;
+    color: #000;
+    margin: 5px 0px 0px;
+    font-size: 12px !important;
+    font-weight: bold;
+}
+
+.ewic-metabox-table label span {
+    line-height: 20px;
+    display: block;
+    color: #999;
+    margin: 5px 0px 0px;
+    font-size: 12px !important;
+    font-weight: normal;
+}
+
+.ewic-metabox-table input,
+.ewic-metabox-table textarea {
+	margin-right: 20px; 
+}
+
+/* Input */
+.ewic-metabox-table input[type="text"]{
+    padding: 3px;   
+    border: 1px solid #DDDDDD;
+    
+    /*Applying CSS3 gradient*/
+    background: -moz-linear-gradient(center top , #FFFFFF,  #EEEEEE 1px, #FFFFFF 20px);    
+    background: -webkit-gradient(linear, left top, left 20, from(#FFFFFF), color-stop(5%, #EEEEEE) to(#FFFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FBFBFB', endColorstr='#FFFFFF');
+    
+    /*Applying CSS 3radius*/   
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    /*Applying CSS3 box shadow*/
+    -moz-box-shadow: 0 0 2px #DDDDDD;
+    -webkit-box-shadow: 0 0 2px #DDDDDD;
+    box-shadow: 0 0 2px #DDDDDD;
+
+}
+.ewic-metabox-table input[type="text"]:hover
+{
+    border:1px solid #cccccc;
+}
+.ewic-metabox-table input[type="text"]:focus
+{
+    box-shadow:0 0 2px #FFFE00;
+}
+
+
+
+/* Radio Box*/
+input[type=radio].css-checkbox {
+	display:none;
+	}
+	
+input[type=radio].css-checkbox + label.css-label {
+	padding-left:24px;
+	height:19px;
+	display:inline-block;
+	line-height:19px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:14px;
+	vertical-align:middle;
+	cursor:pointer;
+	margin-right:20px;
+	}
+	
+input[type=radio].css-checkbox:checked + label.css-label {
+	background-position: 0 -19px;
+	}
+
+label.css-label {
+	background-image:url(../images/cssradio.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	}
+	
+.ewic-metabox-table .radio-label { margin-right: 10px; }
+.ewic-metabox-table input.radio {
+	width: auto; 
+	margin-right: 3px;
+	float: none;
+}
+
+.ewic-introjs {
+	float: right;
+	margin-right: 10px;
+	}
+	
+.ewic-intro-help {
+	margin-right: 10px;
+	float:left;
+	width: 24px;
+	height: 24px;
+	background-image: url('../images/help-me.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+	
+	
+.ewic-introjs a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FF8000;
+	font-size: 12px !important;
+	text-decoration: none !important;
+	}
+	
+.ewic-introjs a:hover {
+	color: #505A87;
+	text-decoration: underline !important;
+	}
+	
