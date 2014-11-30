@@ -1,7 +1,7 @@
  === Easy Image Slider Widget ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: widget, image, images, image slider, slider widget, widget slider, widget image slider
+Tags: widget, image, images, image slider, slider widget, widget slider, widget image slider, slider image
 Requires at least: 3.5
 Tested up to: 4.0.1
 Stable tag: 1.0.0
@@ -16,9 +16,10 @@ Easy Image Slider Widget - Displaying your image as slider in widget/sidebar are
 
 ### Features
 > 
+> * 100% Responsive
 > * Unlimited Images
-> * ON/OFF Auto Slide
-> * Slide Delay
+> * ON/OFF Auto Slider
+> * Slider Delay
 > * +25 Slider Effect ( Easing )
 > * Vertical/Horizontal Slider styles
 > * Open Slider in a Lightbox ( when clicked )
