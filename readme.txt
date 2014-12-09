@@ -16,12 +16,14 @@ Easy Image Slider Widget - Displaying your image as slider in widget/sidebar are
 
 ### Features
 > 
-> * 100% Responsive
+> * Fully responsive - will adapt to any device
+> * Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+
+> * Slidehow using adaptiveHeight
 > * Unlimited Images
 > * ON/OFF Auto Slider
 > * Slider Delay
 > * +25 Slider Effect ( Easing )
-> * Vertical/Horizontal Slider styles
+> * Horizontal, vertical, and fade modes
 > * Open Slider in a Lightbox ( when clicked )
 
 ### Live Demo
