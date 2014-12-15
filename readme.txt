@@ -23,7 +23,7 @@ Easy Image Slider Widget - Displaying your image as slider in widget/sidebar are
 > * ON/OFF Auto Slider
 > * Slider Delay
 > * +25 Slider Effect ( Easing )
-> * Horizontal, vertical, and fade modes
+> * fade, Horizontal or vertical modes
 > * Open Slider in a Lightbox ( when clicked )
 
 ### Live Demo
