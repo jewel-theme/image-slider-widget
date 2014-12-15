@@ -330,10 +330,11 @@ function ewic_metabox_work(){
 					
 			array(
 					'name' => __( 'Slider Style', 'easywic' ),
-					'desc' => __( 'You can set the slider style to move vertical or horizontal. Default: Horizontal', 'easywic' ),
+					'desc' => __( 'You can set the slider style to fade, move vertical or horizontal. Default: Horizontal', 'easywic' ),
 					'id' => 'ewic_meta_slide_style',
 					'type' => 'radio',
 					'options' => array (	
+										'fade'=> 'Fade',
 										'horizontal'=> 'Horizontal',	
 										'vertical'=> 'Vertical'),	
 					'std' => 'horizontal'
