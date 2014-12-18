@@ -48,7 +48,7 @@ jQuery(document).ready(function($){
                                 <img src="' + attachment.sizes.thumbnail.url + '" />\
 								<span class="ewic-del-images"></span>\
 								<label for="title-for-'+ attachment.id +'">Title </label>\
-								<input class="images-title" type="text" name="ewic_meta[ewic_meta_select_images][' + attachment.id + '][ttl]" value="' + attachment.caption + '"/>\
+								<input class="images-title" type="text" name="ewic_meta[ewic_meta_select_images][' + attachment.id + '][ttl]" value="' + attachment.title + '"/>\
                                 </li>').hide().fadeIn(300);
 
                         }
