@@ -4,7 +4,7 @@ Plugin Name: Easy Slider Widget (Lite)
 Plugin URI: http://www.ghozylab.com/plugins/
 Description: Easy Slider Widget (Lite) - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 Author: GhozyLab, Inc.
-Version: 1.0.0
+Version: 1.0.1
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -35,7 +35,7 @@ add_action( 'admin_init', 'ewic_wordpress_version' );
 /*   MAIN DEFINES
 /*-------------------------------------------------------------------------------*/
 if ( !defined( 'EWIC_VERSION' ) ) {
-	define( 'EWIC_VERSION', '1.0.0' );
+	define( 'EWIC_VERSION', '1.0.1' );
 	}
 
 if ( !defined( 'EWIC_NAME' ) ) {

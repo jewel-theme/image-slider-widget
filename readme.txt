@@ -3,8 +3,8 @@ Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: widget, image, images, image slider, slider widget, widget slider, widget image slider, slider image
 Requires at least: 3.5
-Tested up to: 4.0.1
-Stable tag: 1.0.0
+Tested up to: 4.1
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -90,10 +90,14 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.0.1 =
+* Updated : WordPress 4.1 compatibility
+* Fixed : Auto retrieve title from image library 
+
 = 1.0.0 =
 * This is the launch version. No changes yet.
 
 == Upgrade Notice ==
 
-= 1.0.0 =
-None
+= 1.0.1 =
+IMPORTANT! Fixed WordPress 4.1 compatibility, PLEASE UPDATE NOW!
