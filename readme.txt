@@ -28,11 +28,11 @@ Easy Image Slider Widget - Displaying your image as slider in widget/sidebar are
 
 ### Live Demo
 > 
-> * [Lite DEMO](http://demo.ghozylab.com/plugins/imageslider/)
-> * [PRO DEMO Image Slider with Thumbnails at The Bottom](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/)
-> * [PRO Image Slider with Bullet Navigation](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-bullet-navigation/)
-> * [PRO Image Slider with Thumbnails on Left](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-left/)
-> * [PRO Image Slider with Thumbnails on Right](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-right/)
+> * [DEMO : LITE](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/)
+> * [DEMO PRO : Image Slider with Thumbnails at The Bottom](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/)
+> * [DEMO PRO : Image Slider with Bullet Navigation](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-bullet-navigation/)
+> * [DEMO PRO : Image Slider with Thumbnails on Left](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-left/)
+> * [DEMO PRO : Image Slider with Thumbnails on Right](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-right/)
 
 ### Plugin in Action
 <p>https://www.youtube.com/watch?v=mN9Y7mb3XZo</p>
