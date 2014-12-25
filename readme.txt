@@ -1,7 +1,7 @@
  === Easy Image Slider Widget ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: widget, image, images, image slider, slider widget, widget slider, widget image slider, slider image
+Tags: widget, image, images, image slider, slider widget, widget slider, widget image slider, slider image, best slider plugin, best image slider, best slider plugin
 Requires at least: 3.5
 Tested up to: 4.1
 Stable tag: 1.0.3
