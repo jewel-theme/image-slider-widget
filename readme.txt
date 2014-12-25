@@ -28,14 +28,46 @@ Easy Image Slider Widget - Displaying your image as slider in widget/sidebar are
 
 ### Live Demo
 > 
-> * [DEMO : LITE](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/)
-> * [DEMO PRO : Image Slider with Thumbnails at The Bottom](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/)
-> * [DEMO PRO : Image Slider with Bullet Navigation](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-bullet-navigation/)
-> * [DEMO PRO : Image Slider with Thumbnails on Left](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-left/)
-> * [DEMO PRO : Image Slider with Thumbnails on Right](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-right/)
+> * [DEMO : LITE VERSION](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/)
+> * [DEMO PRO VERSION : Image Slider with Thumbnails at The Bottom](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/)
+> * [DEMO PRO VERSION : Image Slider with Bullet Navigation](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-bullet-navigation/)
+> * [DEMO PRO VERSION : Image Slider with Thumbnails on Left](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-left/)
+> * [DEMO PRO VERSION : Image Slider with Thumbnails on Right](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-right/)
 
 ### Plugin in Action
 <p>https://www.youtube.com/watch?v=mN9Y7mb3XZo</p>
+
+### PRO Features
+> 
+> * Slider on Post / Page
+> * 4 layouts, buttom thumbnails, left, right or with bullets only
+> * 360+ Slideshow Effects/Transitions
+> * 390+ Title Effects/Transitions
+> * Responsive
+> * Touch Swipe by Finger/Mouse
+> * 10+ arrow styles
+> * +25 Slider Effect ( Easing )
+> * Unlimited colors and layout
+> * Social Share Buttons
+> * Custom CSS and JS
+
+= Scalable Layout Engine ( Pro ) =
+The powerful plugin settings panel makes deep customization possible. It means that the interface is adaptive, user can add or remove navigator, arrow navigator and thumbnail navigator, or any decoration interface.
+
+= 360+ Slideshow Effects/Transitions ( Pro ) =
+Easy Image Slider Pro comes with 360+ awesome slideshow effects, and the most scalable slideshow transition build tool enables you build infinite slideshow transitions.
+
+= 390+ Title Effects/Transitions ( Pro ) =
+Tons of options enable you build your own title transition. You can start with fade, move, clip, wave, jump, rotate or zoom transitions, and so many more that you can imagine. And you can combine 2 or more transitions as well.
+
+= Cross Browser, All Browsers Supported ( Pro ) =
+Easy Image Slider Pro is cross browser slider plugin, all browsers are supported (IE 6+, Firefox 2+, Chrome 3+, Safari 3+, Opera 10+, iOS Safari, Opera Mobile, Android Browser, iPhone, iPad, Mac, Windows Surface etc.).
+
+= Full Responsive =
+Easy Image Slider Pro is reponsive by calling API. The API method ‘$ScaleWidth’ is the best performance responsive slider carousel approach, Easy Image Slider Pro can be scaled to any size at realtime.
+
+= Touch Swipe by Finger/Mouse ( Pro ) =
+When touch the Slider, it will freeze and then move to the direction that finger swipes to.
 
 ### Recommended Plugins
 The following are other recommended plugins by the author:
