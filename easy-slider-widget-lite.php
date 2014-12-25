@@ -2,9 +2,9 @@
 /*
 Plugin Name: Easy Slider Widget (Lite)
 Plugin URI: http://www.ghozylab.com/plugins/
-Description: Easy Slider Widget (Lite) - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
+Description: Easy Image Slider (Lite) - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.<a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.0.1
+Version: 1.0.3
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -35,12 +35,32 @@ add_action( 'admin_init', 'ewic_wordpress_version' );
 /*   MAIN DEFINES
 /*-------------------------------------------------------------------------------*/
 if ( !defined( 'EWIC_VERSION' ) ) {
-	define( 'EWIC_VERSION', '1.0.1' );
+	define( 'EWIC_VERSION', '1.0.3' );
 	}
 
 if ( !defined( 'EWIC_NAME' ) ) {
 	define( 'EWIC_NAME', 'Easy Slider Widget' );
 	}
+	
+// Pro Price
+if ( !defined( 'EWIC_PRO' ) ) {
+	define( 'EWIC_PRO', '20' );
+}
+
+// Pro+
+if ( !defined( 'EWIC_PROPLUS' ) ) {
+	define( 'EWIC_PROPLUS', '33' );
+}
+
+// Pro++ Price
+if ( !defined( 'EWIC_PROPLUSPLUS' ) ) {
+	define( 'EWIC_PROPLUSPLUS', '60' );
+}
+
+// Dev Price
+if ( !defined( 'EWIC_DEV' ) ) {
+	define( 'EWIC_DEV', '99' );
+}
 
 
 /*-------------------------------------------------------------------------------*/
@@ -143,7 +163,28 @@ include_once( 'inc/ewic-widget.php' );
 /*-------------------------------------------------------------------------------*/
 if ( is_admin() ){
 	require_once( 'inc/ewic-featured.php' );
+	include_once( 'inc/ewic-pricing.php' ); 
 	}
+	
+/*-------------------------------------------------------------------------------*/
+/*   Redirect to Pricing Table on Activate
+/*-------------------------------------------------------------------------------*/	
+function ewic_plugin_activate() {
+
+  add_option( 'activatedewic', 'ewic-activate' );
+
+}
+register_activation_hook( __FILE__, 'ewic_plugin_activate' );
+
+function ewic_load_plugin() {
+
+    if ( is_admin() && get_option( 'activatedewic' ) == 'ewic-activate' ) {
+		delete_option( 'activatedewic' );
+		wp_redirect("edit.php?post_type=easyimageslider&page=ewiccomparison");
+		
+    	}
+}
+add_action( 'admin_init', 'ewic_load_plugin' );
 
 
 ?>

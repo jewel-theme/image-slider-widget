@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: widget, image, images, image slider, slider widget, widget slider, widget image slider, slider image
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.0.1
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,7 +28,11 @@ Easy Image Slider Widget - Displaying your image as slider in widget/sidebar are
 
 ### Live Demo
 > 
-> * [DEMO](http://demo.ghozylab.com/plugins/imageslider/)
+> * [Lite DEMO](http://demo.ghozylab.com/plugins/imageslider/)
+> * [PRO DEMO Image Slider with Thumbnails at The Bottom](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/)
+> * [PRO Image Slider with Bullet Navigation](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-bullet-navigation/)
+> * [PRO Image Slider with Thumbnails on Left](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-left/)
+> * [PRO Image Slider with Thumbnails on Right](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-right/)
 
 ### Plugin in Action
 <p>https://www.youtube.com/watch?v=mN9Y7mb3XZo</p>
@@ -89,6 +93,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 
 == Changelog ==
+
+= 1.0.3 =
+* Updated : Added Pro Version
 
 = 1.0.1 =
 * Updated : WordPress 4.1 compatibility

@@ -5,7 +5,15 @@
  * @param array $meta_box Meta box input data
  */
  
- 
+
+/*-----------------------------------------------------------------------------------*/
+/*  Right Upgrade Metabox
+/*-----------------------------------------------------------------------------------*/
+function ewic_custom_metabox() {
+	add_meta_box( 'ewicbuydiv', __( 'Upgrade to Pro Version' ), 'ewic_upgrade_metabox', 'easyimageslider', 'side', 'default' );
+}
+
+add_action( 'do_meta_boxes', 'ewic_custom_metabox' );
 add_action( "admin_head", 'ewic_admin_head_script' );
 add_action( 'admin_enqueue_scripts', 'ewic_load_script', 10, 1 );
 

@@ -4,6 +4,7 @@
 /*   Frontend Register JS & CSS
 /*-------------------------------------------------------------------------------*/
 function ewic_reg_script() {
+	wp_register_style( 'ewic-pricing-css', plugins_url( 'css/pricing.css' , dirname(__FILE__) ), false, EWIC_VERSION );
 	wp_register_style( 'ewic-cpstyles', plugins_url( 'css/funcstyle.css' , dirname(__FILE__) ), false, EWIC_VERSION, 'all');
 	wp_register_style( 'ewic-sldr', plugins_url( 'css/slider.css' , dirname(__FILE__) ), false, EWIC_VERSION );
 	wp_register_style( 'ewic-colorpicker', plugins_url( 'css/colorpicker.css' , dirname(__FILE__) ), false, EWIC_VERSION );
@@ -138,6 +139,43 @@ function ewic_check_browser_version_admin( $sid ) {
 			}
 	}
 }
+
+
+/*-------------------------------------------------------------------------------*/
+/*  Create Upgrade Metabox
+/*-------------------------------------------------------------------------------*/
+function ewic_upgrade_metabox () {
+	$enobuy = '<div style="text-align:center;">';
+	$enobuy .= '<a id="ewicprcngtableclr" style="outline: none !important;" target="_blank" href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/"><img style="cursor:pointer; margin-top: 7px;" src="'.plugins_url( 'images/buy-now.png' , dirname(__FILE__) ).'" width="241" height="95" alt="Buy Now!" ></a>';
+	$enobuy .= '</div>';
+echo $enobuy;	
+}
+
+
+/*-------------------------------------------------------------------------------*/
+/*   GENERATE SHARE BUTTONS
+/*-------------------------------------------------------------------------------*/
+function ewic_share() {
+?>
+<div style="position:relative; margin-top:6px;">
+<ul class='ewic-social' id='ewic-cssanime'>
+<li class='ewic-facebook'>
+<a onclick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=Check out the Best Wordpress Image Slider Plugin&amp;p[summary]=Best Wordpress Image Slider Plugin is powerful and so easy to create image slider in minutes&amp;p[url]=http://demo.ghozylab.com/plugins/easy-image-slider-plugin/&amp;p[images][0]=http://content.ghozylab.com/wp-content/uploads/2014/11/easy-slider-widget-320-200.png', 'sharer', 'toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" title="Share"><strong>Facebook</strong></a>
+</li>
+<li class='ewic-twitter'>
+<a onclick="window.open('https://twitter.com/share?text=Best Wordpress Image Slider Plugin &url=http://demo.ghozylab.com/plugins/easy-image-slider-plugin/', 'sharer', 'toolbar=0,status=0,width=548,height=325');" title="Twitter" class="circle"><strong>Twitter</strong></a>
+</li>
+<li class='ewic-googleplus'>
+<a onclick="window.open('https://plus.google.com/share?url=http://demo.ghozylab.com/plugins/easy-image-slider-plugin/','','width=415,height=450');"><strong>Google+</strong></a>
+</li>
+<li class='ewic-pinterest'>
+<a onclick="window.open('http://pinterest.com/pin/create/button/?url=http://demo.ghozylab.com/plugins/easy-image-slider-plugin/;media=http://content.ghozylab.com/wp-content/uploads/2014/11/easy-slider-widget-320-200.png;description=Best Wordpress Image Slider Plugin','','width=600,height=300');"><strong>Pinterest</strong></a>
+</li>
+</ul>
+</div>
+
+    <?php
+	}
 
 
 ?>
