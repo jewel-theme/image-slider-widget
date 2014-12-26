@@ -34,7 +34,7 @@ Easy Image Slider Widget - Displaying your image as slider in widget/sidebar are
 > * [DEMO PRO VERSION : Image Slider with Thumbnails on Left](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-left/)
 > * [DEMO PRO VERSION : Image Slider with Thumbnails on Right](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-right/)
 
-### Plugin in Action
+### Plugin in Action (lite)
 <p>https://www.youtube.com/watch?v=mN9Y7mb3XZo</p>
 
 ### PRO Features
@@ -64,7 +64,7 @@ Tons of options enable you build your own title transition. You can start with f
 Easy Image Slider Pro is cross browser slider plugin, all browsers are supported (IE 6+, Firefox 2+, Chrome 3+, Safari 3+, Opera 10+, iOS Safari, Opera Mobile, Android Browser, iPhone, iPad, Mac, Windows Surface etc.).
 
 = Full Responsive =
-Easy Image Slider Pro is reponsive by calling API. The API method ‘$ScaleWidth’ is the best performance responsive slider carousel approach, Easy Image Slider Pro can be scaled to any size at realtime.
+Easy Image Slider Pro is reponsive by calling API. The API method $ScaleWidth is the best performance responsive slider carousel approach, Easy Image Slider Pro can be scaled to any size at realtime.
 
 = Touch Swipe by Finger/Mouse ( Pro ) =
 When touch the Slider, it will freeze and then move to the direction that finger swipes to.
