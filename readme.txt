@@ -14,7 +14,7 @@ Displaying your image as slider in widget/sidebar area with very easy.
 
 Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 
-### Features
+### Lite Features
 > 
 > * Fully responsive - will adapt to any device
 > * Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+
