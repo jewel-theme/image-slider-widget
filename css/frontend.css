@@ -19,6 +19,7 @@
 	
 .bx-wrapper	 ul li {
 	list-style:none !important;
+	margin: 0 !important;
 	}
 	
 /* Slider Control */	
@@ -27,8 +28,8 @@
 	display: none !important;
 	}
 	
-#latest-box .bx-controls-auto {
-	display: none;
+.bx-controls-auto {
+	display: none !important;
 	}
 	
 #latest-box {
@@ -68,3 +69,5 @@
 .ewc_close {
 	z-index:9995;
 	}
+	
+	

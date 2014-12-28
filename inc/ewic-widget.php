@@ -17,7 +17,7 @@ class ewic_sc_widget extends WP_Widget {
                 <span class="latest-text">
                 <?php
 				if ( $ewic_shortcode ) {
-					echo ewic_generate_images_slider( $ewic_shortcode );
+					echo do_shortcode( '[espro-slider id="'.$ewic_shortcode.'" iswidget="widget"]' );
 					}
 				?> 
                 </span> <!-- text -->

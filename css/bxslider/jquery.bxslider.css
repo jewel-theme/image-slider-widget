@@ -193,6 +193,8 @@
 	background: rgba(80, 80, 80, 0.75);
 	width: 100%;
 	height: auto;
+	bottom: 0 !important;
+	text-align: center !important;
 }
 
 .bx-wrapper .bx-caption span {

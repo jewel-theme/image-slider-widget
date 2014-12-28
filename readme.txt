@@ -1,22 +1,23 @@
  === Easy Image Slider ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: widget, image, images, image slider, slider, best slider, widget image slider, slider image, best slider plugin, best image slider, best slider plugin, wordpress slider, wp slider
+Tags: widget, image, images, image slider, post slider, page slider, post image slider, page image slider, slider, best slider, widget image slider, slider image, best slider plugin, best image slider, best slider plugin, wordpress slider, wp slider
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.0.3
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Displaying your image as slider in widget/sidebar area with very easy.
+Create image slider in post/page/widget/sidebar area with very easy.
 
 == Description ==
 
-Easy Image Slider - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
+Easy Image Slider - Displaying images as slider in your post/page/widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 
 ### Lite Features
 > 
 > * Fully responsive - will adapt to any device
+> * Slider on Post / Page / Widget
 > * Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+
 > * Slideshow using adaptiveHeight
 > * Unlimited Images
@@ -39,7 +40,7 @@ Easy Image Slider - Displaying your image as slider in widget/sidebar area with 
 
 ### PRO Features
 > 
-> * Slider on Post / Page
+> * Slider on Post / Page / Widget
 > * 4 layouts, buttom thumbnails, left, right or with bullets only
 > * 360+ Slideshow Effects/Transitions
 > * 390+ Title Effects/Transitions
@@ -126,6 +127,11 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.0.5 =
+* Added : Post/Page Slider, so you can add image slider in your post/page
+* Added : Demo button inside slider editor page
+* Updated : Plugin banner
+
 = 1.0.3 =
 * Updated : Added Pro Version
 
@@ -138,5 +144,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.0.1 =
-IMPORTANT! Fixed WordPress 4.1 compatibility, PLEASE UPDATE NOW!
+= 1.0.5 =
+IMPORTANT! Added Post/Page Slider, PLEASE UPDATE NOW!

@@ -103,7 +103,7 @@ jQuery(document).ready(function($){
               },
               {
                 element: '#publish',
-                intro: "Now you can Save the slider and put the widget named <b>Easy Slider Widget</b> from Appearance > Widget.",
+                intro: "When you are done, you can save the slider and put the slider into your post/page using Shortcode Manager or in widget area by dragging the widget named <b>Easy Slider Widget</b> from Appearance > Widget.",
                 position: 'bottom'
               }
             ]

@@ -60,7 +60,7 @@ function ewic_pricing_table() {
         <li class="row_style_3 align_center">None</li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>  
+        <li class="row_style_1 align_center"><span class="pricing_yes"></span>very simple slider</li>  
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>  
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>      
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>

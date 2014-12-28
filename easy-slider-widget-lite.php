@@ -2,9 +2,9 @@
 /*
 Plugin Name: Easy Slider Widget (Lite)
 Plugin URI: http://www.ghozylab.com/plugins/
-Description: Easy Image Slider (Lite) - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.<a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
+Description: Easy Image Slider (Lite) - Displaying your image as slider in post/page/widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.<a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.0.3
+Version: 1.0.5
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -35,7 +35,7 @@ add_action( 'admin_init', 'ewic_wordpress_version' );
 /*   MAIN DEFINES
 /*-------------------------------------------------------------------------------*/
 if ( !defined( 'EWIC_VERSION' ) ) {
-	define( 'EWIC_VERSION', '1.0.3' );
+	define( 'EWIC_VERSION', '1.0.5' );
 	}
 
 if ( !defined( 'EWIC_NAME' ) ) {
@@ -149,14 +149,23 @@ function ewic_rename_submenu() {
 }  
 add_action( 'admin_menu', 'ewic_rename_submenu' );  
 
+
+/*-------------------------------------------------------------------------------*/
+/*   Executing shortcode inside sidebar/widget
+/*-------------------------------------------------------------------------------*/
+add_filter( 'widget_text', 'do_shortcode', 11 );
+
+
 /*-------------------------------------------------------------------------------*/
 /*  All Includes
 /*-------------------------------------------------------------------------------*/
 
 include_once( 'inc/functions/ewic-functions.php' ); 
-include_once( 'inc/ewic-frontend.php' );
+//include_once( 'inc/ewic-frontend.php' ); @since 1.0.5
+include_once( 'inc/ewic-tinymce.php' );
 include_once( 'inc/ewic-metaboxes.php' ); 
 include_once( 'inc/ewic-widget.php' ); 
+include_once( 'inc/ewic-shortcode.php' ); 
 
 /*-------------------------------------------------------------------------------*/
 /*   Featured Plugins Page
