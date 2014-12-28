@@ -153,6 +153,17 @@ echo $enobuy;
 
 
 /*-------------------------------------------------------------------------------*/
+/*  Create Pro Demo Metabox
+/*-------------------------------------------------------------------------------*/
+function ewic_prodemo_metabox () {
+	$enobuy = '<div style="text-align:center;">';
+	$enobuy .= '<a id="ewicdemotableclr" style="outline: none !important;" target="_blank" href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/"><img style="cursor:pointer; margin-top: 7px;" src="'.plugins_url( 'images/view-demo-button.jpg' , dirname(__FILE__) ).'" width="232" height="60" alt="Pro Version Demo" ></a>';
+	$enobuy .= '</div>';
+echo $enobuy;	
+}
+
+
+/*-------------------------------------------------------------------------------*/
 /*   GENERATE SHARE BUTTONS
 /*-------------------------------------------------------------------------------*/
 function ewic_share() {

@@ -10,6 +10,7 @@
 /*  Right Upgrade Metabox
 /*-----------------------------------------------------------------------------------*/
 function ewic_custom_metabox() {
+	add_meta_box( 'ewicdemodiv', __( 'AMAZING Pro Version DEMO' ), 'ewic_prodemo_metabox', 'easyimageslider', 'side', 'default' );
 	add_meta_box( 'ewicbuydiv', __( 'Upgrade to Pro Version' ), 'ewic_upgrade_metabox', 'easyimageslider', 'side', 'default' );
 }
 
