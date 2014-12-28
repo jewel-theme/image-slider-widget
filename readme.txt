@@ -36,7 +36,7 @@ Easy Image Slider - Displaying images as slider in your post/page/widget/sidebar
 > * [DEMO PRO VERSION : Image Slider with Thumbnails on Right](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-right/)
 
 ### Plugin in Action (lite)
-<p>https://www.youtube.com/watch?v=mN9Y7mb3XZo</p>
+<p>https://www.youtube.com/watch?v=-W8u_t05K2Y</p>
 
 ### PRO Features
 > 
