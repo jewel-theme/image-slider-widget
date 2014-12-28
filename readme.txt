@@ -1,7 +1,7 @@
- === Easy Image Slider Widget ===
+ === Easy Image Slider ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: widget, image, images, image slider, slider, best slider, widget image slider, slider image, best slider plugin, best image slider, best slider plugin,wordpress slider
+Tags: widget, image, images, image slider, slider, best slider, widget image slider, slider image, best slider plugin, best image slider, best slider plugin, wordpress slider, wp slider
 Requires at least: 3.5
 Tested up to: 4.1
 Stable tag: 1.0.3
@@ -12,7 +12,7 @@ Displaying your image as slider in widget/sidebar area with very easy.
 
 == Description ==
 
-Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
+Easy Image Slider - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 
 ### Lite Features
 > 
