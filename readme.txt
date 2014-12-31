@@ -1,10 +1,10 @@
  === Easy Image Slider ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: widget, image, images, image slider, post slider, page slider, post image slider, page image slider, slider, best slider, widget image slider, slider image, best slider plugin, best image slider, best slider plugin, wp slider, wordpress seo, seo image, slideshow, slideshow plugin, slideshow image, widget slideshow, slideshow widget, wordpress slider, wp slider
+Tags: widget, image, images, image slider, post slider, page slider, post image slider, page image slider, slider, best slider, widget image slider, slider image, best slider plugin, best image slider, best slider plugin, wp slider, wordpress seo, seo image, slideshow, slideshow plugin, plugin slideshow, slideshow image, widget slideshow, slideshow widget, wordpress slider, wp slider
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.0.5
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -127,10 +127,12 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.0.7 =
+* Fixed : Wrong file URL on several subdomain
+
 = 1.0.5 =
 * Added : Post/Page Slider, so you can add image slider in your post/page
 * Added : Demo button inside slider editor page
-* Fixed : Wrong file URL on several subdomain
 * Updated : Plugin banner
 
 = 1.0.3 =
@@ -145,5 +147,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.0.5 =
-IMPORTANT! Added Post/Page Slider, PLEASE UPDATE NOW!
+= 1.0.7 =
+IMPORTANT! FIXED: Wrong file URL on several subdomain, PLEASE UPDATE NOW!
