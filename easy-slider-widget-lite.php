@@ -62,6 +62,13 @@ if ( !defined( 'EWIC_DEV' ) ) {
 	define( 'EWIC_DEV', '99' );
 }
 
+// plugin url
+if ( ! defined( 'EWIC_URL' ) ) {
+	$en_plugin_url = substr(plugin_dir_url(__FILE__), 0, -1);
+	define( 'EWIC_URL', $en_plugin_url );
+}
+	
+
 
 /*-------------------------------------------------------------------------------*/
 /*   Load WP jQuery library

@@ -1,5 +1,6 @@
 <?php
 
+
 /*-------------------------------------------------------------------------------*/
 /*   Frontend Register JS & CSS
 /*-------------------------------------------------------------------------------*/
@@ -14,19 +15,19 @@ function ewic_reg_script() {
 	wp_register_script( 'ewic-utils', plugins_url( 'js/colorpicker/utils.js' , dirname(__FILE__) ), false );
 	wp_register_script( 'ewic-introjs', plugins_url( 'js/jquery/intro.min.js' , dirname(__FILE__) ), false );
 	wp_register_style( 'ewic-tinymcecss', plugins_url( 'css/tinymce.css' , dirname(__FILE__) ), false, EWIC_VERSION, 'all');
-	wp_register_script( 'ewic-tinymcejs', plugins_url( 'js/tinymce.js' , dirname(__FILE__) ), false );		
-	
+	wp_register_script( 'ewic-tinymcejs', plugins_url( 'js/tinymce.js' , dirname(__FILE__) ), false );	
+		
 }
 add_action( 'admin_init', 'ewic_reg_script' );
 
 function ewic_frontend_js() {
-	wp_register_script( 'ewic-bxslider', plugins_url( 'js/jquery/bxslider/jquery.bxslider.min.js' , dirname(__DIR__) ) );
-	wp_register_script( 'ewic-bxslider-easing', plugins_url( 'js/jquery/jquery.easing.1.3.js' , dirname(__DIR__) ) );	
-	wp_register_script( 'ewic-prettyphoto', plugins_url( 'js/jquery/prettyphoto/jquery.prettyPhoto.js' , dirname(__DIR__) ) );
-	
-	wp_register_style( 'ewic-frontend-css', plugins_url('css/frontend.css', dirname(__DIR__) ) );
-	wp_register_style( 'ewic-bxslider-css', plugins_url('css/bxslider/jquery.bxslider.css', dirname(__DIR__) ) );
-	wp_register_style( 'ewic-prettyphoto-css', plugins_url('css/prettyphoto/css/prettyPhoto.css', dirname(__DIR__) ) );
+
+	wp_register_script( 'ewic-bxslider', EWIC_URL. '/js/jquery/bxslider/jquery.bxslider.min.js' );
+	wp_register_script( 'ewic-bxslider-easing', EWIC_URL. '/js/jquery/jquery.easing.1.3.js' );	
+	wp_register_script( 'ewic-prettyphoto', EWIC_URL. '/js/jquery/prettyphoto/jquery.prettyPhoto.js' );
+	wp_register_style( 'ewic-frontend-css', EWIC_URL. '/css/frontend.css' );
+	wp_register_style( 'ewic-bxslider-css', EWIC_URL. '/css/bxslider/jquery.bxslider.css' );
+	wp_register_style( 'ewic-prettyphoto-css', EWIC_URL. '/css/prettyphoto/css/prettyPhoto.css' );
 	
 }
 add_action( 'wp_enqueue_scripts', 'ewic_frontend_js' );
