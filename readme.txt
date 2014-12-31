@@ -130,6 +130,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 = 1.0.5 =
 * Added : Post/Page Slider, so you can add image slider in your post/page
 * Added : Demo button inside slider editor page
+* Fixed : Wrong file URL on several subdomain
 * Updated : Plugin banner
 
 = 1.0.3 =
